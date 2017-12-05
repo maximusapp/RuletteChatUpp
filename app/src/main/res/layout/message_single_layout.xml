@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/message_single_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/message_profile_layout"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_margin="3dp"
+        android:background="@drawable/chat_user_avatar"
+        app:srcCompat="@drawable/chat_user_avatar" />
+
+    <TextView
+        android:id="@+id/message_text_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/message_profile_layout"
+        android:layout_toRightOf="@+id/message_profile_layout"
+        android:background="@drawable/message_text_background"
+        android:padding="5dp"
+        android:text="TextView"
+        android:textColor="@color/colorWhite" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/message_profile_layout_from"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/message_text_layout"
+        android:layout_margin="3dp"
+        android:background="@drawable/chat_user_avatar"
+        app:srcCompat="@drawable/chat_user_avatar" />
+
+    <TextView
+        android:id="@+id/message_text_layout_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/message_profile_layout_from"
+        android:layout_toStartOf="@+id/message_profile_layout_from"
+        android:background="@drawable/message_text_background"
+        android:fontFamily="monospace"
+        android:padding="5dp"
+        android:text="TextView"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <ImageView
+        android:id="@+id/message_image_layout"
+        android:layout_width="100dp"
+        android:layout_height="10dp"
+
+        android:layout_alignLeft="@+id/message_text_layout"
+        android:layout_alignStart="@+id/message_text_layout"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/chat_user_avatar" />
+
+    <ImageView
+        android:id="@+id/message_image_from"
+        android:layout_width="100dp"
+        android:layout_height="10dp"
+
+        android:layout_alignBottom="@+id/message_text_layout_from"
+        android:layout_alignEnd="@+id/message_text_layout_from"
+        android:layout_alignRight="@+id/message_text_layout_from"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/chat_user_avatar" />
+
+    <VideoView
+        android:id="@+id/message_video_layout"
+        android:layout_width="260dp"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@+id/message_text_layout"
+        android:layout_alignStart="@+id/message_text_layout"
+        android:layout_below="@+id/message_image_layout" />
+
+</RelativeLayout>

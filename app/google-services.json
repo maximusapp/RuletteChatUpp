@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "124784724996",
+    "firebase_url": "https://my-piramida-app.firebaseio.com",
+    "project_id": "my-piramida-app",
+    "storage_bucket": "my-piramida-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124784724996:android:726e8f0a6ae3408f",
+        "android_client_info": {
+          "package_name": "com.zender.piramidaupp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124784724996-93dbldl6njcbiujhjascuqdbq6jpe48s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zender.piramidaupp",
+            "certificate_hash": "d2646ffa2cf90868b9ca82c3b3234cbf012fca77"
+          }
+        },
+        {
+          "client_id": "124784724996-74vv830errjccqhq2fhk7tlqn763lvqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7dgiOecuKISBpLVc2Yg2YhYVB-rQDNCs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124784724996-74vv830errjccqhq2fhk7tlqn763lvqf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

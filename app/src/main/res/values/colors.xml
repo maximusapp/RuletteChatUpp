@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorRegScreen">#6c0eb4</color>
+    <color name="colorWhite">#fafafa</color>
+    <color name="colorChat">#525253</color>
+    <color name="colorGreyChat">#bababa</color>
+    <color name="colorBlue">#039BE5</color>
+    <color name="colorGreen">#306941</color>
+    <color name="colorGreenChat">#A5D6A7</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

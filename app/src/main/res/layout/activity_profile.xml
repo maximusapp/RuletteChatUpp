@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorChat"
+    tools:context="com.zender.piramidaupp.ProfileActivity">
+
+    <TextView
+        android:id="@+id/profile_displayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Profile Name"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/profile_image" />
+
+    <TextView
+        android:id="@+id/profile_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Profile Status"
+        android:textColor="@color/colorWhite"
+        android:layout_alignTop="@+id/profile_displayName"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/profile_totalFriends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="106dp"
+        android:text="Total friends"
+        android:textColor="?android:attr/colorFocusedHighlight"
+        android:layout_below="@+id/profile_status"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/profile_sendReg_btn"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/profile_totalFriends"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Запрос дружить"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/profile_declineBtn"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/profile_sendReg_btn"
+        android:layout_alignStart="@+id/profile_sendReg_btn"
+        android:layout_below="@+id/profile_sendReg_btn"
+        android:layout_marginTop="11dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Отказать в дружбе"
+        android:textSize="12sp" />
+
+</RelativeLayout>
